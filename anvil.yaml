@@ -3,6 +3,9 @@ dependencies:
 - dep_id: dep_meuwl3flbxob44
   resolution_hints: {app_id: UGGJBAZUZ74XZ7VU, name: m3-custom-theme, package_name: m3}
   version: {branch: master}
+- dep_id: dep_gstb0ux36exbx
+  resolution_hints: {app_id: 3PIDO5P3H4VPEMPL, name: routing, package_name: routing}
+  version: {version_tag: v0.7.0}
 name: mb-1-fda-app1
 package_name: mb_1_fda_app1
 runtime_options:
