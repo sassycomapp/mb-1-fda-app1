@@ -1,9 +1,16 @@
 allow_embedding: false
-name: Minimal Theme 2
-package_name: Minimal_Theme_2
+dependencies:
+- dep_id: dep_meuwl3flbxob44
+  resolution_hints: {app_id: UGGJBAZUZ74XZ7VU, name: m3-custom-theme, package_name: m3}
+  version: {branch: master}
+name: mb-1-fda-app1
+package_name: mb_1_fda_app1
 runtime_options:
   client_version: '3'
   server_spec: {base: python314}
   version: 3
-services: []
+services:
+- client_config: {enable_v2: true}
+  server_config: {}
+  source: /runtime/services/tables.yml
 startup: {module: Form1, type: form}
